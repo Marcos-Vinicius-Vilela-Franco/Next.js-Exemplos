@@ -1,0 +1,266 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.topbar{
+    
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding: 6px;
+}
+.menu a{
+    font-size: 13px;
+    font-weight: 400;
+}
+.menu{
+    
+    width: 230px;
+    height: 48px;
+    margin-right: 6px;
+    padding: 0 4px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.boxPesquisa{
+    height: 140px;
+    padding: 20px;
+}
+.links{
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+}
+.divIcon{
+    
+    width: 38px;
+    height: 38px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.divIcon:hover{
+    background-color:rgba(0,0,0,0.07746848739495793);
+}
+.gibi{
+    background-color: #078d7e;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding-top: 3px;
+    text-align: center;
+    color: white;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.logo{
+    height: 290px;
+    max-width: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.busca{
+    height: 44px;
+    min-width: 560px;
+    padding: 5px 8px 5px 14px;
+    border-radius: 25px;
+    border: rgba(0,0,0,0.09746848739495793) solid 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.busca:hover{
+    box-shadow: rgba(0,0,0,0.09746848739495793)  1px 3px 8px;
+}
+.inputStyle{
+    min-width: 447px;
+    height: 34px;
+    border: none;
+}
+.inputStyle:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.lupa{
+    
+    width: 20px;
+    height:20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.lupaSpan{
+    margin-top: 3px;
+    color: #9aa0a6;
+}
+.mic{
+    margin: 0px 8px 0px 8px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.favorito{
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pGoogle{
+    height: 34px;
+    padding: 0 16px 0 16px;
+    border: 1px;
+    margin: 11px 4px 11px 4px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.pGoogle:hover{
+    cursor: pointer;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.vazia{
+     
+    width: 100%; 
+    
+}
+.footerStyle{
+    height: 80px;
+   display: flex;
+   flex-direction: column;
+}
+.corpoFooter{
+    width: 100%;
+    height: 92px;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    color: #70757a;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding: 0px 20px 0px 20px;
+   background-color: #f2f2f2;
+   position: absolute;
+   bottom: 0;
+   
+}
+.pais{
+    width: 100%;
+    position: fixed;
+    max-height: 6vw;
+    padding: 15px 30px 15px 30px;
+    background-color: #f2f2f2;
+    bottom: 92px;
+    border-bottom: 1px solid #dadce0;
+}
+.footerLink{
+    color: #70757a;
+    padding: 15px;
+    text-decoration: none;
+}
+@media (max-width: 590px) {
+    .busca{
+        height: 49px;
+        min-width: 260px;
+        padding: 5px 8px 5px 14px;
+        border-radius: 25px;
+        border: rgba(0,0,0,0.09746848739495793) solid 1px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .inputStyle{
+        min-width: 247px;
+        height: 34px;
+        border: none;
+    }
+    .pais{
+        width: 100%;
+        position: fixed;
+        max-height: 8vw;
+        padding: 15px 30px 15px 30px;
+        background-color: #f2f2f2;
+        bottom: 92px;
+        border-bottom: 1px solid #dadce0;
+    }
+  }
+
+  @media (max-width: 490px) {
+    .busca{
+        height: 49px;
+        max-width: 304px;
+        padding: 5px 8px 5px 14px;
+        border-radius: 25px;
+        border: rgba(0,0,0,0.09746848739495793) solid 1px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+        
+    }
+    .inputStyle{
+        min-width: 100px;
+        height: 34px;
+        border: none;
+    }
+    .pais{
+        display: none;
+    }
+    .logo{
+        height: 130px;
+        max-width: 360px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        
+    }
+    .imageSize{
+        width: 222px;
+        height: 42;
+    }
+    .boxPesquisa{
+        width: 250;
+        height: 140px;
+        padding: 5px;
+        
+    }
+    .pGoogle{
+        height: 49px;
+        padding: 0 16px 0 16px;
+        border: 1px;
+        margin: 11px 4px 11px 4px;
+        background-color: #f8f9fa;
+        border-radius: 4px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
+  }

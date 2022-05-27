@@ -1,5 +1,7 @@
-html,
-body {
+html
+{
+  /* background-color: rgba(212,221,238,255); */
+  
   padding: 0;
   margin: 0;
   height: 100%;    

@@ -18,7 +18,7 @@ export default function Login() {
                     <label>Senha</label>
                     <input {...register('senha')}type="password" className="form-control mt-2 " placeholder="Digite sua senha" />
                 </div>
-                <button type="submit" className="btn btn-primary btn-block mt-3 mb-2">Entrar</button>
+                <button type="submit" className="btn btn-primary btn-block mt-3 mb-2 ">Entrar</button>
                 <p className="forgot-password text-right ">
                     Esqueceu a <a href="#">senha?</a>
                 </p>
